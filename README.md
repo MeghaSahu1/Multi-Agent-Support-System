@@ -2,6 +2,7 @@
 An AI-powered Multi-Agent Support System designed to handle customer queries efficiently by simulating real-world support workflows. This project demonstrates how multiple intelligent agents can coordinate to understand user queries, generate appropriate responses, and escalate critical issues when necessary.
 
 Project: Intelligent Multi-Agent Customer Support System
+
 An AI-powered project demonstrating coordinated agent behaviour for real-world support tasks.
 
 An AI-powered, coordinated multi-agent system that classifies customer queries, generates responses, and decides escalation using an orchestrator-based architecture.
@@ -37,11 +38,17 @@ This project is built for Google AI Agent Builder Capstone Project and showcases
 
 🏗️ 3. Architecture
 User Query
+
      ↓
+     
 Intent Agent → Reply Agent → Escalation Agent
+
      ↓                ↓               ↓
+     
                Orchestrator
+               
      ↓
+     
 Final Response + Escalation Status
 
 🔧 4. How It Works
@@ -53,13 +60,21 @@ Final Response + Escalation Status
 5️⃣ Final combined response returned
 
 🧩 5. Project Structure
+
 /multi-agent-support-system
+
 │── orchestrator.py
+
 │── agents/
+
 │      ├── intent_agent.py
+
 │      ├── reply_agent.py
+
 │      ├── escalation_agent.py
+
 │── main.py
+
 │── README.md
 
 🖥️ 6. How To Run
@@ -92,4 +107,5 @@ Add your full working Python script here (we already created earlier; I can add 
 🏅 10. Credits
 
 Made by Megha Sahu
+
 For Google AI Agent Capstone Project
