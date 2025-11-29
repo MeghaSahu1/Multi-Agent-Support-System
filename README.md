@@ -2,6 +2,7 @@
 An AI-powered Multi-Agent Support System designed to handle customer queries efficiently by simulating real-world support workflows. This project demonstrates how multiple intelligent agents can coordinate to understand user queries, generate appropriate responses, and escalate critical issues when necessary.
 
 Project: Intelligent Multi-Agent Customer Support System
+An AI-powered project demonstrating coordinated agent behaviour for real-world support tasks.
 
 An AI-powered, coordinated multi-agent system that classifies customer queries, generates responses, and decides escalation using an orchestrator-based architecture.
 
